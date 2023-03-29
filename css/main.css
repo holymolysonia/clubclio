@@ -26,6 +26,12 @@ body {
     line-height: 1;
     color: #333;
     font-family: 'Pretendard-Regular';
+    min-width: 1920px;
+    /*
+     - 여백이 필요없다 => 컨텐츠 중심값으로 잡으면 됨(1440px)
+     - 여백도 보여까지 보여줄 것이다 => 1920px로 잡으면 됨
+     브라우저 너비의 최소값
+    작은화면에서 1920사이즈로 보여지게 됨 */
 }
 
 /* 📢📢header📢📢 */
